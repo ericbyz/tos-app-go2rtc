@@ -1,0 +1,35 @@
+#!/bin/bash
+# Post-installation script — runs after the package is installed
+set -e
+
+APPID="go2rtc"
+APP_DIR="/usr/local/${APPID}"
+
+if ! id -u "${APPID}" > /dev/null 2>&1; then
+    useradd --system --no-create-home --shell /usr/sbin/nologin "${APPID}" 2>/dev/null || true
+fi
+
+chown -R "${APPID}:${APPID}" "${APP_DIR}" 2>/dev/null || true
+
+# Config + state dirs (config seed survives upgrades; recordings in /var/lib)
+mkdir -p /etc/go2rtc /var/lib/go2rtc 2>/dev/null || true
+[ -f /etc/go2rtc/go2rtc.yaml ] || cp "${APP_DIR}/packaging-extras/go2rtc.yaml.default" /etc/go2rtc/go2rtc.yaml
+chown -R "${APPID}:${APPID}" /var/lib/go2rtc 2>/dev/null || true
+chown root:go2rtc /etc/go2rtc/go2rtc.yaml 2>/dev/null || true
+chmod 640 /etc/go2rtc/go2rtc.yaml 2>/dev/null || true
+
+case "$1" in
+    configure)
+        if [ -n "$2" ]; then
+            echo "${APPID}: upgrading from version $2 (config in /etc/go2rtc preserved)"
+        fi
+        systemctl daemon-reload 2>/dev/null || true
+        systemctl enable "go2rtc.service" 2>/dev/null || true
+        systemctl start "go2rtc.service" 2>/dev/null || true
+        ;;
+    *) ;;
+esac
+
+echo "${APPID} installed successfully."
+echo "  web UI: http://<NAS>:18238 (add camera streams there)"
+exit 0

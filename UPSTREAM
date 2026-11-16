@@ -1,0 +1,16 @@
+# Upstream project pin — single source of truth for reproducible builds.
+# go2rtc is packaged unmodified from upstream AlexxIT/go2rtc (MIT).
+# IMPORTANT: this package must NOT modify the upstream binary; it only adds
+# packaging metadata, a systemd unit, a config seed and docs.
+
+UPSTREAM_REPO=https://github.com/AlexxIT/go2rtc
+UPSTREAM_LICENSE=MIT
+
+UPSTREAM_TAG=v1.9.15
+UPSTREAM_VERSION=1.9.15
+
+ASSET_x86_64=go2rtc_linux_amd64
+ASSET_aarch64=go2rtc_linux_arm64
+
+SHA256_x86_64=20b46c6910734cb05ecefb234066f36868ff19b42ba1418a7a32e13a3e035712
+SHA256_aarch64=af416f22b21a24ab83b8d78642190b4932ae695b4e386853f11d1b0319781763

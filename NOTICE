@@ -1,0 +1,13 @@
+This product (TOS App Center packaging of go2rtc) includes software developed
+by the go2rtc project:
+
+  go2rtc - Streaming engine for RTSP, WebRTC, HLS, MJPEG, MPEG-TS
+  https://github.com/AlexxIT/go2rtc
+  Copyright AlexxIT and go2rtc contributors
+  Licensed under the MIT License
+
+The packaged binary is the unmodified release artifact published in the
+upstream project's GitHub Releases; its SHA256 is pinned in the UPSTREAM
+file of this repository. The TOS packaging metadata, build scripts, systemd
+unit, config seed and documentation in this repository are original work by
+ericbyz, licensed under the MIT License.

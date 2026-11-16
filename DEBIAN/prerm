@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+APPID="go2rtc"
+case "$1" in
+    remove|deconfigure)
+        systemctl stop "go2rtc.service" 2>/dev/null || true
+        systemctl disable "go2rtc.service" 2>/dev/null || true
+        ;;
+    upgrade|failed-upgrade) ;;
+    *) ;;
+esac
+exit 0

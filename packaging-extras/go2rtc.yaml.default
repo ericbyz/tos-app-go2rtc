@@ -1,0 +1,21 @@
+# go2rtc 配置(TOS 封装种子)
+# 安装后位于 /etc/go2rtc/go2rtc.yaml;修改后执行 systemctl restart go2rtc
+# 完整参数: https://github.com/AlexxIT/go2rtc#configuration
+#
+# 摄像头流在 Web UI(http://<NAS>:18238)→ Streams 里添加,或直接在下面追加:
+# streams:
+#   camera1: rtsp://user:pass@192.168.1.100:554/stream
+
+api:
+  listen: ":18238"
+
+# RTSP 出流端口(把摄像头流转成标准 RTSP 给播放器/NVR)
+rtsp:
+  listen: ":18554"
+
+# WebRTC/WHEP 协商端口(浏览器低延迟直播)
+webrtc:
+  listen: ":18555"
+
+log:
+  level: info

@@ -1,0 +1,40 @@
+[Unit]
+Description=go2rtc - camera streaming hub (RTSP/WebRTC/HLS) (TOS)
+After=network.target
+StartLimitBurst=5
+StartLimitIntervalSec=60
+
+[Service]
+Type=simple
+User=go2rtc
+Group=go2rtc
+WorkingDirectory=/var/lib/go2rtc
+ExecStart=/usr/local/go2rtc/bin/go2rtc -c /etc/go2rtc/go2rtc.yaml
+TimeoutStartSec=30
+TimeoutStopSec=10
+
+# Security hardening (TOS 7 review requires NoNewPrivileges/ProtectSystem/ProtectHome;
+# Restart= is intentionally omitted — service lifecycle is managed by the platform)
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictRealtime=true
+# NOTE: MemoryDenyWriteExecute is intentionally omitted — it segfaults the
+# Go runtime on TOS 6.12 kernels (VM-verified crash; direct run is fine)
+LockPersonality=true
+RestrictSUIDSGID=true
+RemoveIPC=true
+SystemCallArchitectures=native
+
+# config in /etc/go2rtc; state (recordings, tmp) in /var/lib/go2rtc
+ReadWritePaths=/var/lib/go2rtc
+
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

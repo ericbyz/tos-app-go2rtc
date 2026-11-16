@@ -1,0 +1,155 @@
+[zh-cn]
+name = "go2rtc 摄像头流媒体中枢"
+auth = "ericbyz"
+descript = "把 IP 摄像头/媒体源转成 RTSP、低延迟 WebRTC 和 HLS,单二进制零依赖,内置 Web 管理页(http://<NAS>:18238)。浏览器里添加 rtsp:// 摄像头即可直播观看、两路对讲、录制回放。上游二进制原样封装(MIT),配置位于 /etc/go2rtc/go2rtc.yaml,摄像头流在 Web UI 里管理。"
+note = "1. 将上游 AlexxIT/go2rtc(MIT)原样封装为 TOS 应用。"
+
+[zh-hk]
+name = "go2rtc 攝像頭流媒體中樞"
+auth = "ericbyz"
+descript = "把 IP 攝像頭/媒體源轉成 RTSP、低延遲 WebRTC 和 HLS,單二進制零依賴,內置 Web 管理頁(http://<NAS>:18238)。瀏覽器裡添加 rtsp:// 攝像頭即可直播觀看、兩路對講、錄製回放。"
+note = "1. 将上游 AlexxIT/go2rtc(MIT)原样封装为 TOS 应用。"
+
+[en-us]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[ko-kr]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "IP 카메라/미디어 소스를 RTSP·저지연 WebRTC·HLS로 변환하는 스트리밍 허브: 단일 바이너리, 의존성 없음, Web UI(http://<NAS>:18238) 내장. 업스트림 바이너리 무수정 패키징(MIT), 설정은 /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[ja-jp]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "IP カメラやメディアソースを RTSP・低遅延 WebRTC・HLS に変換するストリーミング ハブ。単一バイナリで依存なし、Web UI(http://<NAS>:18238)内蔵。上流バイナリを無改修でパッケージ化(MIT)、設定は /etc/go2rtc/go2rtc.yaml。"
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[de-de]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Streaming-Hub für IP-Kameras und Medienquellen: RTSP, latenzarme WebRTC und HLS aus einem einzigen Binary ohne Abhängigkeiten, mit integriertem Web-UI (http://<NAS>:18238). Upstream unverändert paketiert (MIT), Konfiguration in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[fr-fr]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Hub de streaming pour caméras IP et sources multimédias : RTSP, WebRTC faible latence et HLS depuis un binaire unique sans dépendance, avec interface web intégrée (http://<NAS>:18238). Amont intact (MIT), configuration dans /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[it-it]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[es-es]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Hub de streaming para cámaras IP y fuentes multimedia: RTSP, WebRTC de baja latencia y HLS desde un único binario sin dependencias, con interfaz web integrada (http://<NAS>:18238). Upstream intacto (MIT), configuración en /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[hu-hu]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[pl-pl]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[tr-tr]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[ru-ru]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Стриминговый хаб для IP-камер и медиаисточников: RTSP, низколатентный WebRTC и HLS из одного бинарника без зависимостей, со встроенным веб-интерфейсом (http://<NAS>:18238). Оригинальные бинарники без изменений (MIT), конфигурация в /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[pt-pt]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[cs-cz]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[da-dk]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[nl-nl]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[nb-no]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[sv-se]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[el-gr]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[ro-ro]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[th-th]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[vi-vn]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[id-id]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[ar-sa]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."
+
+[he-il]
+name = "go2rtc Stream Hub"
+auth = "ericbyz"
+descript = "Camera streaming hub: turn IP cameras and media sources into RTSP, low-latency WebRTC and HLS with a single lightweight binary and an embedded web UI (http://<NAS>:18238). Add streams in the browser and watch live from anywhere. Packaged unmodified from upstream AlexxIT/go2rtc (MIT); config in /etc/go2rtc/go2rtc.yaml."
+note = "1. Repackaged upstream AlexxIT/go2rtc (MIT) unmodified for TOS."

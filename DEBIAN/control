@@ -1,0 +1,15 @@
+Package: go2rtc
+Version: 1.9.15
+Architecture: amd64
+Section: net
+Priority: optional
+Maintainer: ericbyz <ericbyz@users.noreply.github.com>
+Depends: systemd
+Description: Camera streaming hub - RTSP/WebRTC/HLS with web UI (go2rtc)
+ go2rtc bridges your IP cameras and media sources into every consumer:
+ standard RTSP out for players and NVRs, low-latency WebRTC and MSE for
+ browsers, HLS for everything else — zero dependencies, single binary with
+ an embedded web UI. Open http://<NAS>:18238 from the TOS desktop, add a
+ stream (rtsp://...), and watch it live in the browser.
+ Upstream project: https://github.com/AlexxIT/go2rtc (MIT), packaged
+ unmodified.
